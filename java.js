@@ -69,7 +69,10 @@ console.log(Colors[2]);
 
 // 배열 반복과 합계 계산: 숫자로 구성된 배열을 선언하고, 배열의 모든 요소를 더한 값을 출력하세요.
 
-
+const numbers = [1, 2, 3, 4, 5];
+console.log(
+  numbers[0] + numbers[1] + numbers[2] +  numbers[3] + numbers[4] +  numbers[5]
+);
 
 // 논리 연산자1: 두 개의 boolean 타입의 변수를 선언하고, AND 연산을 적용한 결과를 각각 출력하세요.
 // 논리 연산자2: 두 개의 boolean 타입의 변수를 선언하고, OR 연산을 적용한 결과를 각각 출력하세요.
@@ -78,9 +81,9 @@ console.log(Colors[2]);
 let boolean1 = true;
 let boolean2 = false;
 
-console.log(boolean1 && boolean2);
-console.log(boolean1 || boolean2);
-console.log(!boolean2);
+console.log(boolean1 && boolean2); //false
+console.log(boolean1 || boolean2); //true
+console.log(!boolean2); //true
 
 
 // 1. var, let, const를 사용하여 각각 변수를 선언하고 값을 할당하세요.
@@ -92,16 +95,16 @@ console.log(i);
 let a = 42;
 let b = 'hello';
 let c = true;
-let d = null;
-let e;
-console.log(b);
+let d = null; //object
+let e; //undefined//
+console.log(e);
 
 // 3. 두 개의 숫자를 더하고, 뺄셈, 곱셈, 나눗셈을 하는 코드를 작성하세요.
 
 let num1 = 10;
 let num2 = 5;
 
-console.log (num1 + num2);
+console.log (num1 + num2); 
 console.log (num1 - num2);
 console.log (num1 * num2);
 
